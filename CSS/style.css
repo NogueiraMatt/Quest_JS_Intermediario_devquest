@@ -1,0 +1,115 @@
+body{
+    background-image: url(../src/images/bg-repeat.jpg);
+    background-repeat:repeat-x;
+    background-size:50px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 50px 12px 50px;
+}
+
+.conteudo{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 111px;
+    width: 50%;
+}
+
+.descricao .titulo{
+    color: #FFF;
+    font-size: 20px;
+    line-height: normal;
+}
+
+.descricao .textoPrincipal{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.formulario{
+    height: 400px;
+    width: 340px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.obrigatorioTexto{
+    position: absolute;
+    font-size: 15px;
+    height: 18px;
+    top: 430px;
+    left: 895px;
+
+}
+
+.dados{
+    height: 44px;
+    margin-bottom: 10px;
+}
+
+.avisoObrigatorio{
+    font-size: 15px; 
+}
+
+.campo{
+    width: 298px;
+    height: 35px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.textoErro{
+    color: red;
+    font-size: 11px;
+    display: none;
+}
+
+.textoAtivo{
+    display: block;
+}
+
+.bordaErro{
+    border-color: red;
+}
+
+.bordaPreenchido{
+    border-color: #00C22B;
+}
+
+
+#mensagemBox{
+    margin-bottom:0;
+    height: 100px;
+}
+
+.botaoEnviar{
+    position: absolute;
+    top: 460px;
+    font-size: 15px;
+    color: white;
+    background-color: #3CCC87;
+    border-radius: 5px;
+    border: 1px solid #3CCC87;
+    width: 298px;
+    height: 41px;
+}
+
+.botaoEnviar:hover{
+    cursor: pointer;
+}
+

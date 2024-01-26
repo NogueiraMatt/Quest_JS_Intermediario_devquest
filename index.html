@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Quest JS Intermediário</title>
+</head>
+<body>
+    <main class="conteudo">
+        <div class="descricao">
+            <h2 class="titulo">
+                FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!
+            </h2>
+            <p class="textoPrincipal">
+                caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.
+            </p>
+        </div>
+        <ul class="formulario">
+            <li class="dados">
+                <input type="text" name="nome" id="nomeBox" class="campo" placeholder="  Nome">
+                <p class="textoErro">Digite o seu nome</p>
+            </li>
+            <li class="dados">
+                <input type="email" name="e-mail" id="emailBox" class="campo" placeholder="  E-mail">
+                <p class="textoErro">Digite o seu e-mail</p>
+            </li>
+            <li class="dados">
+                <input type="tel" name="telefone" id="teleBox" class="campo" placeholder="  Telefone">
+                <p class="textoErro">Digite o seu telefone</p>
+            </li>
+            <li class="dados">
+                <input type="text" name="mensagem" id="mensagemBox" class="campo" placeholder="  Sua mensagem aqui">
+                <p class="textoErro">Escreva uma mensagem!</p>
+            </li>
+
+            <p class="obrigatorioTexto">*campos obrigatórios</p>
+
+            <input type="submit" value="Enviar" class="botaoEnviar" id="botaoSubmit">
+
+        </ul>
+    </main>
+    <script src="JS/formValidation.js"></script>
+</body>
+</html>
